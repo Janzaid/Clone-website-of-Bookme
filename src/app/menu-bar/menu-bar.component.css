@@ -1,0 +1,18 @@
+.buttons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.buttons ul li{
+    margin: 6px;
+    display: block;
+    background-color: #F1EFDC;
+    border-radius: 8px 8px 8px 8px;
+}
+.buttons ul li a{
+    text-decoration: none;
+    color: #2C3333;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}

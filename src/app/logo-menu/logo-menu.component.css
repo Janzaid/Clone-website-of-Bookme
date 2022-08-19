@@ -1,0 +1,31 @@
+
+.logo {
+    padding-top: 20px;
+    display: block;
+    text-align: center !important;
+}
+.logo input{
+    float: right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.help{
+    border: none;
+    color: gray;
+    padding: 10px;
+    background-color: transparent;
+    padding-right: 30px;
+}
+.login{
+    color: gray;
+    border-color: black;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    margin-right: 40px;
+    position: relative;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+.login:hover{
+    background-color: black;
+    color: white;
+}

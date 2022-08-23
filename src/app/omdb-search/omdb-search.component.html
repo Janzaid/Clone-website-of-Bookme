@@ -1,0 +1,18 @@
+<div class="main">
+  <h1>Find a Movie</h1>
+  <div class="search-box">
+    <input type="text" #name placeholder="Movie Name" /> &nbsp;&nbsp;
+    <button (click)="searchMovie(name.value)">Search</button>
+  </div>
+</div>
+
+<div class="main-box" *ngFor="let movie of movieDetail">
+  <div class="row">
+    <div class="col">
+      <img [src]="movie['Poster']" />
+      <h6>{{ movie["Title"] }}</h6>
+      <div class="year">{{ movie["Year"] }}</div>
+      <div class="id">{{ movie["imdbID"] }}</div>
+    </div>
+  </div>
+</div>
